@@ -9,6 +9,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class ComputeServiceApplication {
 
 	public static void main(String[] args) {
+		int i = 1；
 		new SpringApplicationBuilder(ComputeServiceApplication.class).web(true).run(args);
 	}
 
